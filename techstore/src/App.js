@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
+
 function App() {
+    
     return (
         <Router>
             <div className="App">
@@ -41,6 +43,7 @@ function App() {
                 </div>
             </div>
         </Router>
+        
     )
 }
 
